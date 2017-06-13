@@ -25,8 +25,8 @@ How we generate these different amounts is a little more complex as it depends o
 
 Variables:
 
- - COR - Carge out rate (How much a member costs per hour to the client)
- - BH - Billable hours (number of billable a member billed to a client in a month)
+ - COR - Charge out rate (How much a member costs per hour to the client)
+ - BH - Billable hours (number of billable hours a member billed to a client in a month)
  - Day Activity Types:
     - Personal - only basic income
     - Internal investment or administration - basic income + an internal top up for the day
@@ -39,7 +39,7 @@ Variables:
  - Commission = 10%
 
 ### The Formula
-To calculate the amount someone recieves take their booked in activity types for a month and refer to the tabulation table below.
+To calculate the amount someone recieves, take their booked in activity types for a month and refer to the table below.
 
 ### Calculating daily amounts
 | buffer level\activity type 	| Personal 		| Internal Top up	| Contracting Top up|
@@ -80,12 +80,12 @@ Then we can calculate the member will recieve:
 At the end of a month we produce the invoices for our members. This follows the same process as forecasting except that we substitute in the actual billable hours worked and charge out rate.
 
 ### !Important (very experimental)
-We do not adjust peoples pay down because of changes to their schedule. eg if a person gets sick and cant work we don't demote there days to personal. We will adjust peoples pay up if they have had to do extra days they didn't intend to.
+We do not adjust peoples pay down because of changes to their schedule. eg if a person gets sick and can't work we don't demote their days to a personal type. We will adjust people's pay up if they have had to do extra days they didn't intend to.
 
 It is the job of the Coordinators to keep an eye on this overtime and checkin with the group and members about how things are going. A transparent monthly report will be shared to all members.
 
 ### Buffer as control lever (What's the point of all this?)
-By coupling several factors to buffer events we can create a self regulating system. The intent is that as the buffer increases so to does the money flowing away from the pod. These are the scaling money outflows and do not include fixed costs such as space hire and saas tools.
+By coupling several factors to buffer events we can create a self regulating system. The intent is that as the buffer increases so to does the money flowing away from the pod. These are the scaling money outflows and do not include fixed costs such as space hire and SaaS tools.
 
 ## Contribution to a commons
 Contribution to a commons is done as a percentage of total revenue of the pod/manth. Unless agreed otherwise this is a scaling amount of between 0-8% depending on the buffer level.
@@ -94,7 +94,7 @@ Contribution to a commons is done as a percentage of total revenue of the pod/ma
 Giving individuals control over a discretionary amount of organisation funds that they (by themselves or with others) can use for a business expense they identify. eg new computer, desk, coffee machine, plants etc...
 
 ## Invoicing
-Invoices to our customers are sent within the first 5 days of the month following the billing billing month. Invoices are sent via xero.
+Invoices to our customers are sent within the first 5 days of the month following the billing month. Invoices are sent via Xero.
 
 ## Reporting 
 A cashflow report is published at the end of each month.
