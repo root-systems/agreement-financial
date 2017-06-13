@@ -4,7 +4,7 @@
 This agreement is dependant on three others:
 
  - [Activity Types Agreement](https://www.rootsystems.nz/agreements/activity-types.html)
- - Self Management Agreement
+ - [Cordination Agreement](https://www.rootsystems.nz/agreements/coordination-agreement.html)
  - [Buffer Agreement](https://www.rootsystems.nz/agreements/buffer-agreement.html)
 
 ## Member Remuneration
