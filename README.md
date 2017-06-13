@@ -1,7 +1,7 @@
 # Financial Agreement
 
 ## Dependancies
-This agreement is dependant on two others:
+This agreement is dependant on three others:
 
  - Activity Types Agreement 
  - Self Management Agreement
