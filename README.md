@@ -3,9 +3,9 @@
 ## Dependancies
 This agreement is dependant on three others:
 
- - Activity Types Agreement 
+ - [Activity Types Agreement](https://www.rootsystems.nz/agreements/activity-types.html)
  - Self Management Agreement
- - Buffer Agreement
+ - [Buffer Agreement](https://www.rootsystems.nz/agreements/buffer-agreement.html)
 
 ## Member Remuneration
 Our simplified formula for a months pay can be described as:
@@ -25,12 +25,12 @@ How we generate these different amounts is a little more complex as it depends o
 
 Variables:
 
- - COR - Charge out rate (How much a member costs per hour to the client)
+ - COR - Charge-out rate (How much a member costs per hour to the client)
  - BH - Billable hours (number of billable hours a member billed to a client in a month)
  - Day Activity Types:
     - Personal - only basic income
     - Internal investment or administration - basic income + an internal top up for the day
-    - Contracting - basic income + a contracting top up for the day + BH * COR *10% 
+    - Contracting - basic income + a contracting top up for the day + BH \* COR \* 10% 
  - Buffer: 
     - Level 1
     - Level 2
@@ -42,7 +42,7 @@ Variables:
 To calculate the amount someone recieves, take their booked in activity types for a month and refer to the table below.
 
 ### Calculating daily amounts
-| buffer level\activity type 	| Personal 		| Internal Top up	| Contracting Top up|
+| Buffer level 	| Personal 		| Internal Top up	| Contracting Top up|
 | :---         				| ---:      			| ---: 			| ---:				|
 | Level 0  				| 100     			| 160    			| 200			|
 | Level 1        				| 100          		| 190        		| 240			|
@@ -82,13 +82,13 @@ At the end of a month we produce the invoices for our members. This follows the 
 ### !Important (very experimental)
 We do not adjust peoples pay down because of changes to their schedule. eg if a person gets sick and can't work we don't demote their days to a personal type. We will adjust people's pay up if they have had to do extra days they didn't intend to.
 
-It is the job of the Coordinators to keep an eye on this overtime and checkin with the group and members about how things are going. A transparent monthly report will be shared to all members.
+It is the job of the [Coordinators](https://www.rootsystems.nz/roles/coordinator.html) to keep an eye on this overtime and checkin with the group and members about how things are going. A transparent monthly report will be shared to all members.
 
 ### Buffer as control lever (What's the point of all this?)
 By coupling several factors to buffer events we can create a self regulating system. The intent is that as the buffer increases so to does the money flowing away from the pod. These are the scaling money outflows and do not include fixed costs such as space hire and SaaS tools.
 
 ## Contribution to a commons
-Contribution to a commons is done as a percentage of total revenue of the pod/manth. Unless agreed otherwise this is a scaling amount of between 0-8% depending on the buffer level.
+Contribution to a commons is done as a percentage of total revenue of the pod per month. Unless agreed otherwise this is a scaling amount of between 0-8% depending on the buffer level.
 
 ## Collaborative funding
 Giving individuals control over a discretionary amount of organisation funds that they (by themselves or with others) can use for a business expense they identify. eg new computer, desk, coffee machine, plants etc...
@@ -99,11 +99,10 @@ Invoices to our customers are sent within the first 5 days of the month followin
 ## Reporting 
 A cashflow report is published at the end of each month.
 
-
 # Glossary
 
 ## Income
-The pods funds come from the following sources:
+The pod's funds come from the following sources:
 
 #### Contracting/Bodyshopping
 We sell our time to work as directed - often augmenting an existing team. We charge by the hour.
