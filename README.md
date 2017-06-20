@@ -72,9 +72,9 @@ Then we can calculate the member will recieve:
                      4 * 100
                      4 * 220
                     10 * 280
-              60 * 0.1 * 100
+              60 * 0.1 * 140
             ----------------
-                 Total: 5120
+                 Total: 4920
 
 ### End of Month
 At the end of a month we produce the invoices for our members. This follows the same process as forecasting except that we substitute in the actual billable hours worked and charge out rate.
