@@ -13,7 +13,7 @@ Our simplified formula for a months pay can be described as:
 **Base Income + Business Viability Bonus + Performance Bonus**
 
  - **Base Income:** This is the monthly amount a core member will always receive, no matter what number of hours they work.
- - **Business Viability Bonus:** A top up amount that based on how sustainable we percieve our business to be.
+ - **Business Viability Bonus:** A top up amount that based on how sustainable we perceive our business to be.
  - **Performance Bonus:** A top up based on work that brings money to organisation.
 
 How we generate these different amounts is a little more complex as it depends on two factors: 
@@ -21,16 +21,16 @@ How we generate these different amounts is a little more complex as it depends o
  - Our current Buffer level
  - Activity Types conducted during the month
 
- We use activity types and buffer levels to determine what amounts are added to these three components: 
+We use activity types and buffer levels to determine what amounts are added to these three components: 
 
 Variables:
 
  - COR - Charge-out rate (How much a member costs per hour to the client)
- - BH - Billable hours (number of billable hours a member billed to a client in a month)
+ - BH - Billable hours (Number of billable hours a member billed to a client in a month)
  - Day Activity Types:
     - Personal: covered by monthly basic income
-    - Active: days the member is acting/working for the group - paid a day rate based on buffer
-    - Contracting: top up for hours worked on Active days that bring money to the group -  BH \* COR \* 20% 
+    - Team: days the member is acting/working for the team - paid a day rate based on buffer
+    - Contracting: top up for hours worked on Team days that bring money to the group -  BH \* COR \* 20% 
  - Buffer: 
     - Level 1
     - Level 2
@@ -56,11 +56,11 @@ And we are at Buffer Level 2
 And a Member has booked in:
 
  - 4 Personal days
- - 16 Active days
+ - 16 Team days
  
 And we can estimat:
 
- - 6 billable hours per day for 10 of tha days
+ - 6 billable hours per day for 10 of the days
  - a charge out rate of $140
 
 When we run a cashflow forecast
