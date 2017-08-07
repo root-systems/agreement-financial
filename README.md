@@ -28,59 +28,53 @@ Variables:
  - COR - Charge-out rate (How much a member costs per hour to the client)
  - BH - Billable hours (number of billable hours a member billed to a client in a month)
  - Day Activity Types:
-    - Personal - only basic income
-    - Internal investment or administration - basic income + an internal top up for the day
-    - Contracting - basic income + a contracting top up for the day + BH \* COR \* 10% 
+    - Personal: covered by monthly basic income
+    - Active: days the member is acting/working for the group - paid a day rate based on buffer
+    - Contracting: top up for hours worked on Active days that bring money to the group -  BH \* COR \* 20% 
  - Buffer: 
     - Level 1
     - Level 2
     - Level 3
     - Level 4
- - Commission = 10%
+ - Commission = 20%
 
 ### The Formula
-To calculate the amount someone recieves, take their booked in activity types for a month and refer to the table below.
+To calculate the amount someone recieves, take their active days for a month and refer to the table below.
 
-### Calculating daily amounts
-| Buffer level 	| Personal 		| Internal Top up	| Contracting Top up|
-| :---         				| ---:      			| ---: 			| ---:				|
-| Level 0  				| 100     			| 160    			| 200			|
-| Level 1        				| 100          		| 190        		| 240			|
-| Level 2        				| 100          		| 220	      		| 280			|
-| Level 3        				| 100          		| 250        		| 320			|
-| Level 4        				| 100          		| 280        		| 360			|
+### Calculating dailey amounts
+| Buffer level 	| Day Rate	        | Contracting Rate    |
+| :---         	| ---:    		| ---:			|
+| Level 0  	| 100    		| 0.2 * COR * BH	|
+| Level 1       | 150        		| 0.2 * COR * BH	|
+| Level 2       | 200	      		| 0.2 * COR * BH	|
+| Level 3       | 250        		| 0.2 * COR * BH      	|
+| Level 4       | 300        		| 0.2 * COR * BH	|
 
 ### Forcasting example 
-
 Given we are planning for febuary of a non leap year
 And we are at Buffer Level 2
 And a Member has booked in:
 
  - 4 Personal days
- - 6 Internal days
- - 10 Contracting days
+ - 16 Active days
  
 And we can estimat:
 
- - 6 billable hours contracting day
+ - 6 billable hours per day for 10 of tha days
  - a charge out rate of $140
 
 When we run a cashflow forecast
 Then we can calculate the member will recieve:
 
 
-                     4 * 100
-                     4 * 220
-                    10 * 280
-              60 * 0.1 * 100
+                     1 * 1500
+            +        16 * 200 
+            +  60 * 0.2 * 140
             ----------------
-                 Total: 5120
+                 Total: 6380
 
 ### End of Month
 At the end of a month we produce the invoices for our members. This follows the same process as forecasting except that we substitute in the actual billable hours worked and charge out rate.
-
-### !Important (very experimental)
-We do not adjust peoples pay down because of changes to their schedule. eg if a person gets sick and can't work we don't demote their days to a personal type. We will adjust people's pay up if they have had to do extra days they didn't intend to.
 
 It is the job of the [Coordinators](https://www.rootsystems.nz/roles/coordinator.html) to keep an eye on this overtime and checkin with the group and members about how things are going. A transparent monthly report will be shared to all members.
 
