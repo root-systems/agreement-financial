@@ -51,6 +51,15 @@ To calculate the amount someone recieves, take their active days for a month and
 | Level 3       | 250        		| COM * COR * BH    |
 | Level 4       | 300        		| COM * COR * BH	  |
 
+### Day rate adjustment
+To provide members with flexibility in the how long a day they book in for we have added day rate adjusters:
+
+ - **Half day:** 0.5
+ - **Full day:** 1.0
+ - **Long day:** 1.25
+
+ Members will denote what type of day they plan to work and update it to what was actually worked.
+
 ### Forcasting example
 Given we are planning for February of a non-leap year (28 days, 20 weekdays, 8 weekend days)
 And we are at Buffer Level 2
