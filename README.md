@@ -27,16 +27,17 @@ Variables:
 
  - COR - Charge-out rate: How much a member costs per hour to the client
  - BH - Billable hours: Number of billable hours a member billed to a client in a month
+ - COM - Commission = 20%
  - Day Activity Types:
     - Personal: Covered by monthly basic income
     - Team: Days the member is acting/working for the team - paid a day rate based on buffer
-    - Contracting: Top up for hours worked on Team days that bring money to the group -  BH \* COR \* 20%
+    - Contracting: Top up for hours worked on Team days that bring money to the group -  BH \* COR \* COM
  - Buffer:
     - Level 1
     - Level 2
     - Level 3
     - Level 4
- - Commission = 20%
+
 
 ### The Formula
 To calculate the amount someone recieves, take their active days for a month and refer to the table below.
@@ -44,11 +45,11 @@ To calculate the amount someone recieves, take their active days for a month and
 ### Calculating daily amounts
 | Buffer Level 	| Day Rate	        | Contracting Rate    |
 | :---         	| ---:    		    | ---:			      |
-| Level 0  	    | 100    		    | 0.2 * COR * BH	  |
-| Level 1       | 150        		| 0.2 * COR * BH	  |
-| Level 2       | 200	      		| 0.2 * COR * BH	  |
-| Level 3       | 250        		| 0.2 * COR * BH      |
-| Level 4       | 300        		| 0.2 * COR * BH	  |
+| Level 0  	    | 100    		    | COM * COR * BH	  |
+| Level 1       | 150        		| COM * COR * BH	  |
+| Level 2       | 200	      		| COM * COR * BH	  |
+| Level 3       | 250        		| COM * COR * BH    |
+| Level 4       | 300        		| COM * COR * BH	  |
 
 ### Forcasting example
 Given we are planning for February of a non-leap year (28 days, 20 weekdays, 8 weekend days)
