@@ -43,8 +43,8 @@ Variables:
 To calculate the amount someone recieves, take their active days for a month and refer to the table below.
 
 ### Calculating daily amounts
-| Buffer Level 	| Day Rate	        | Contracting Rate    |
-| :---         	| ---:    		    | ---:			      |
+| Buffer Level 	| Day Rate	    | Contracting Rate  |
+| :---         	| ---:    		  | ---:			        |
 | Level 0  	    | 100    		    | COM * COR * BH	  |
 | Level 1       | 150        		| COM * COR * BH	  |
 | Level 2       | 200	      		| COM * COR * BH	  |
