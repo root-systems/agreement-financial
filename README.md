@@ -81,6 +81,9 @@ It is the job of the [Coordinators](https://www.rootsystems.nz/roles/coordinator
 ### Buffer as control lever (What's the point of all this?)
 By coupling several factors to buffer events we can create a self-regulating system. The intent is that as the buffer increases, so too does the money flowing away from the pod. These are the scaling money outflows and do not include fixed costs such as space hire and SaaS tools.
 
+### Buffer level amount
+A buffer level is defined as $4,000 per person as per the [buffer agreement](https://www.rootsystems.nz/agreements/buffer-agreement.html)
+
 ## Contribution to a commons
 Contribution to a commons is done as a percentage of total revenue of the pod per month. Unless agreed otherwise this is a scaling amount of between 0-8% depending on the Buffer Level.
 
