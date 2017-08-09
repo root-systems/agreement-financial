@@ -52,9 +52,9 @@ To calculate the amount someone recieves, take their active days for a month and
 | Level 4       | 300        		| COM * COR * BH	  |
 
 ### Day rate adjustment
-To provide members with flexibility in the how long a day they book in for we have added day rate adjusters:
+To provide members flexibility we ask members to self-describe how much they feel they worked according to team expectations. Members book in and update "day descriptions" to denote their intent and actual work::
 
- - **Half day:** 0.5
+ - **Short day:** 0.5
  - **Full day:** 1.0
  - **Long day:** 1.25
 
